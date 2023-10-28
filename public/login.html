@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Meal Planner" />
+        <title>Meal Planner</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="styles.css" />
+        <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    </head>
+    <body>
+        
+        <div id="navbar">
+            <div id="top-navbar">
+                <div id="top-navbar-left-div">
+                    <a id="navbar-title" href="./home.html">
+                        <i class="fa-solid fa-utensils"></i>
+                        <span id="title-text">Meal Planner App</span>
+                    </a>
+                </div>
+                <div id="top-navbar-right-div">
+                    <button id="colour-scheme-button" class="colour-scheme-button-unauth"><img src="https://cdn-icons-png.flaticon.com/512/997/997783.png" id="colour-scheme-icon"></img></button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="colour-scheme-modal" class="colour-scheme-modal-unauth">
+            <div id="colour-scheme-grid">
+                <div class="colour-scheme-tile" value="light" id="light-tile"></div>
+                <div class="colour-scheme-tile" value="dark" id="dark-tile"></div>
+                <div class="colour-scheme-tile" value="purple" id="purple-tile"></div>
+                <div class="colour-scheme-tile" value="red" id="red-tile"></div>
+                <div class="colour-scheme-tile" value="pink" id="pink-tile"></div>
+                <div class="colour-scheme-tile" value="teal" id="teal-tile"></div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="login-form-div">
+                <h2 class="login-form-title">Log in to your account</h2>
+                <form class="login-form" action="/login" method="post">
+                    <div class="login-form-email-div">
+                        <label class="login-form-label login-form-email-text" for="email">Email:</label>
+                        <input class="login-form-input email" type="email" name="email" spellcheck="false" required>
+                    </div>
+                    <div class="login-form-password-div">
+                        <label class="login-form-label login-form-password-text" for="password">Password:</label>
+                        <input class="login-form-input password" type="password" name="password" spellcheck="false" required>
+                    </div>
+                    <div>
+                        <button type="submit" class="login-form-submit-button">Log in</button>
+                    </div>
+                </form>
+                <p class="login-form-redirect">Don't have an account? <a id="redirect-link" href="/register.html">Sign up here</a></p>
+            </div>
+        </div>
+
+        <script src="./script.js" ></script>
+    </body>
+</html>

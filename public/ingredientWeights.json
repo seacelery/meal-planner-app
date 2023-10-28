@@ -1,0 +1,629 @@
+{
+    "chicken thigh": {
+        "discreteWeight": 130,             
+        "kcal": 177
+    },
+    "Chicken Thigh": {
+        "discreteWeight": 130,             
+        "kcal": 177
+    },
+    "chicken breast": {
+        "discreteWeight": 175,              
+        "kcal": 165
+    },
+    "Chicken Breast": {
+        "discreteWeight": 175,              
+        "kcal": 165
+    },
+    "chicken leg": {
+        "discreteWeight": 130,                
+        "kcal": 155
+    },
+    "Chicken Leg": {
+        "discreteWeight": 130,                
+        "kcal": 155
+    },
+    "chicken legs": {
+        "discreteWeight": 130,                
+        "kcal": 155
+    },
+    "Chicken Legs": {
+        "discreteWeight": 130,                
+        "kcal": 155
+    },
+    "garlic clove": {
+        "discreteWeight": 6,              
+        "kcal": 111
+    },
+    "Garlic Clove": {
+        "discreteWeight": 6,              
+        "kcal": 111
+    },
+    "garlic": {
+        "discreteWeight": 6,               
+        "kcal": 111
+    },
+    "Garlic": {
+        "discreteWeight": 6,               
+        "kcal": 111
+    },
+    "red onion": {
+        "discreteWeight": 160,             
+        "kcal": 42
+    },
+    "Red Onion": {
+        "discreteWeight": 160,             
+        "kcal": 42
+    },
+    "onion": {
+        "discreteWeight": 160,             
+        "kcal": 55
+    },
+    "Onion": {
+        "discreteWeight": 160,             
+        "kcal": 55
+    },
+    "tomatoe": {
+        "discreteWeight": 125,              
+        "kcal": 25
+    },
+    "Tomatoe": {
+        "discreteWeight": 125,              
+        "kcal": 25
+    },
+    "tomato": {
+        "discreteWeight": 125,              
+        "kcal": 25
+    },
+    "Tomato": {
+        "discreteWeight": 125,              
+        "kcal": 25
+    },
+    "tomatoes": {
+        "discreteWeight": 125,              
+        "kcal": 25
+    },
+    "Tomatoes": {
+        "discreteWeight": 125,              
+        "kcal": 25
+    },
+    "green chilli": {
+        "discreteWeight": 25,               
+        "kcal": 40
+    },
+    "Green Chilli": {
+        "discreteWeight": 25,               
+        "kcal": 40
+    },
+    "red chilli": {
+        "discreteWeight": 25,             
+        "kcal": 40
+    },
+    "Red Chilli": {
+        "discreteWeight": 25,             
+        "kcal": 40
+    },
+    "greek yogurt": {              
+        "kcal": 59
+    },
+    "Greek Yogurt": {              
+        "kcal": 59
+    },
+    "greek yoghurt": {              
+        "kcal": 59
+    },
+    "Greek Yoghurt": {              
+        "kcal": 59
+    },
+    "chicken": {          
+        "kcal": 239
+    },
+    "Chicken": {          
+        "kcal": 239
+    },
+    "cream": {           
+        "kcal": 250
+    },
+    "Cream": {           
+        "kcal": 250
+    },
+    "yogurt": {            
+        "kcal": 90
+    },
+    "Yogurt": {            
+        "kcal": 90
+    },
+    "yoghurt": {            
+        "kcal": 90
+    },
+    "Yoghurt": {            
+        "kcal": 90
+    },
+    "dried apricot": {
+        "discreteWeight": 10,
+        "kcal": 241
+    },
+    "Dried Apricot": {
+        "discreteWeight": 10,
+        "kcal": 241
+    },
+    "chicken stock cube": {
+        "discreteWeight": 6,
+        "kcal": 283
+    },
+    "Chicken Stock Cube": {
+        "discreteWeight": 6,
+        "kcal": 283
+    },
+    "chicken stock": {
+        "kcal": 36
+    },
+    "Chicken Stock": {
+        "kcal": 36
+    },
+    "couscou": {
+        "kcal": 112
+    },
+    "Couscou": {
+        "kcal": 112
+    },
+    "chickpea": {
+        "kcal": 364
+    },
+    "Chickpea": {
+        "kcal": 364
+    },
+    "vegetable oil": {
+        "kcal": 884
+    },
+    "Vegetable Oil": {
+        "kcal": 884
+    },
+    "olive oil": {
+        "kcal": 884
+    },
+    "Olive Oil": {
+        "kcal": 884
+    },
+    "rice": {
+        "kcal": 130
+    },
+    "Rice": {
+        "kcal": 130
+    },
+    "white rice": {
+        "kcal": 130
+    },
+    "White Rice": {
+        "kcal": 130
+    },
+    "mushrooms": {
+        "kcal": 22
+    },
+    "Mushrooms": {
+        "kcal": 22
+    },
+    "passata": {
+        "kcal": 21
+    },
+    "Passata": {
+        "kcal": 21
+    },
+    "black olives": {
+        "kcal": 125
+    },
+    "Black Olives": {
+        "kcal": 125
+    },
+    "ginger": {
+        "kcal": 80
+    },
+    "Ginger": {
+        "kcal": 80
+    },
+    "ginger paste": {
+        "kcal": 125
+    },
+    "Ginger Paste": {
+        "kcal": 125
+    },
+    "cumin seeds": {
+        "kcal": 375
+    },
+    "Cumin Seeds": {
+        "kcal": 375
+    },
+    "cumin": {
+        "kcal": 375
+    },
+    "Cumin": {
+        "kcal": 375
+    },
+    "coriander seeds": {
+        "kcal": 270
+    },
+    "Coriander Seeds": {
+        "kcal": 270
+    },
+    "coriander": {
+        "kcal": 270
+    },
+    "Coriander": {
+        "kcal": 270
+    },
+    "turmeric": {
+        "kcal": 350
+    },
+    "Turmeric": {
+        "kcal": 350
+    },
+    "turmeric powder": {
+        "kcal": 350
+    },
+    "Turmeric Powder": {
+        "kcal": 350
+    },
+    "chilli powder": {
+        "kcal": 280
+    },
+    "Chilli Powder": {
+        "kcal": 280
+    },
+    "fenugreek": {            
+        "kcal": 320
+    },
+    "Fenugreek": {            
+        "kcal": 320
+    },
+    "dried fenugreek": {            
+        "kcal": 320
+    },
+    "Dried Fenugreek": {            
+        "kcal": 320
+    },
+    "garam masala": {            
+        "kcal": 354
+    },
+    "Garam Masala": {            
+        "kcal": 354
+    },
+    "salt": {            
+        "kcal": 1
+    },
+    "Salt": {            
+        "kcal": 1
+    },
+    "pepper": {            
+        "kcal": 1
+    },
+    "Pepper": {            
+        "kcal": 1
+    },
+    "ginger cordial": {            
+        "kcal": 20
+    },
+    "Ginger Cordial": {            
+        "kcal": 20
+    },
+    "Spring Onion": {            
+        "kcal": 32
+    },
+    "Spring Onions": {            
+        "kcal": 32
+    },
+    "water": {            
+        "kcal": 1
+    },
+    "Water": {            
+        "kcal": 1
+    },
+    "Soy Sauce": {
+        "kcal": 53
+    },
+    "soy sauce": {
+        "kcal": 53
+    },
+    "sake": {
+        "kcal": 134
+    },
+    "Sake": {
+        "kcal": 134
+    },
+    "sugar": {
+        "kcal": 385
+    },
+    "Sugar": {
+        "kcal": 385
+    },
+    "granulated sugar": {
+        "kcal": 385
+    },
+    "Granulated Sugar": {
+        "kcal": 385
+    },
+    "potato starch": {
+        "kcal": 357
+    },
+    "Potato Starch": {
+        "kcal": 357
+    },
+    "lemon": {
+        "kcal": 29
+    },
+    "Lemon": {
+        "kcal": 29
+    },
+    "lemons": {
+        "kcal": 29
+    },
+    "Lemons": {
+        "kcal": 29
+    },
+    "parsley": {
+        "kcal": 36
+    },
+    "Parsley": {
+        "kcal": 36
+    },
+    "paprika": {
+        "kcal": 282
+    },
+    "Paprika": {
+        "kcal": 282
+    },
+    "ground cumin": {
+        "kcal": 375
+    },
+    "Ground Cumin": {
+        "kcal": 375
+    },
+    "red onions": {
+        "discreteWeight": 160,             
+        "kcal": 42
+    },
+    "Red Onions": {
+        "discreteWeight": 160,             
+        "kcal": 42
+    },
+    "onions": {
+        "discreteWeight": 160,             
+        "kcal": 55
+    },
+    "Onions": {
+        "discreteWeight": 160,             
+        "kcal": 55
+    },
+    "chicken thighs": {
+        "discreteWeight": 130,             
+        "kcal": 177
+    },
+    "Chicken Thighs": {
+        "discreteWeight": 130,             
+        "kcal": 177
+    },
+    "Juice Lemons": {
+        "kcal": 29
+    },
+    "juice lemons": {
+        "kcal": 29
+    },
+    "harissa": {
+        "kcal": 344
+    },
+    "Harissa": {
+        "kcal": 344
+    },
+    "harissa spice": {
+        "kcal": 344
+    },
+    "Harissa Spice": {
+        "kcal": 344
+    },
+    "dried apricots": {
+        "discreteWeight": 10,
+        "kcal": 241
+    },
+    "Dried Apricots": {
+        "discreteWeight": 10,
+        "kcal": 241
+    },
+    "couscous": {
+        "kcal": 112
+    },
+    "Couscous": {
+        "kcal": 112
+    },
+    "chickpeas": {
+        "kcal": 364
+    },
+    "Chickpeas": {
+        "kcal": 364
+    },
+    "sesame seed oil": {
+        "kcal": 884
+    },
+    "Sesame Seed Oil": {
+        "kcal": 884
+    },
+    "sesame oil": {
+        "kcal": 884
+    },
+    "Sesame Oil": {
+        "kcal": 884
+    },
+    "corn flour": {
+        "kcal": 361
+    },
+    "Corn Flour": {
+        "kcal": 361
+    },
+    "rice vinegar": {
+        "kcal": 1
+    },
+    "Rice Vinegar": {
+        "kcal": 884
+    },
+    "brown sugar": {
+        "kcal": 380
+    },
+    "Brown Sugar": {
+        "kcal": 380
+    },
+    "water chestnut": {
+        "kcal": 50
+    },
+    "Water Chestnut": {
+        "kcal": 50
+    },
+    "water chestnuts": {
+        "kcal": 50
+    },
+    "Water Chestnuts": {
+        "kcal": 50
+    },
+    "peanut": {
+        "kcal": 567
+    },
+    "Peanut": {
+        "kcal": 567
+    },
+    "peanuts": {
+        "kcal": 567
+    },
+    "Peanuts": {
+        "kcal": 567
+    },
+    "butter": {
+        "kcal": 717
+    },
+    "Butter": {
+        "kcal": 717
+    },
+    "red pepper": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "Red Pepper": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "red peppers": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "Red Peppers": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "yellow pepper": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "Yellow Pepper": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "yellow peppers": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "Yellow Peppers": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "green pepper": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "Green Pepper": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "green peppers": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "Green Peppers": {
+        "discreteWeight": 120,
+        "kcal": 20
+    },
+    "chorizo": {
+        "kcal": 450
+    },
+    "Chorizo": {
+        "kcal": 450
+    },
+    "basmati rice": {
+        "kcal": 139
+    },
+    "Basmati Rice": {
+        "kcal": 139
+    },
+    "tomato puree": {
+        "kcal": 38
+    },
+    "Tomato Puree": {
+        "kcal": 38
+    },
+    "tomato purée": {
+        "kcal": 38
+    },
+    "Tomato Purée": {
+        "kcal": 38
+    },
+    "bay leaf": {
+        "discreteWeight": 1,
+        "kcal": 314
+    },
+    "Bay Leaf": {
+        "discreteWeight": 1,
+        "kcal": 314
+    },
+    "bay leaves": {
+        "discreteWeight": 1,
+        "kcal": 314
+    },
+    "Bay Leaves": {
+        "discreteWeight": 1,
+        "kcal": 314
+    },
+    "thyme": {
+        "kcal": 101
+    },
+    "Thyme": {
+        "kcal": 101
+    },
+    "white wine": {
+        "kcal": 82
+    },
+    "White Wine": {
+        "kcal": 82
+    },
+    "sun-dried tomato": {
+        "discreteWeight": 4,
+        "kcal": 9
+    },
+    "Sun-Dried Tomato": {
+        "discreteWeight": 4,
+        "kcal": 9
+    },
+    "sun-dried tomatoes": {
+        "discreteWeight": 4,
+        "kcal": 9
+    },
+    "Sun-Dried Tomatoes": {
+        "discreteWeight": 4,
+        "kcal": 9
+    },
+    "Sun-dried Tomatoes": {
+        "discreteWeight": 4,
+        "kcal": 9
+    },
+    "dry white wine": {
+        "kcal": 82
+    },
+    "Dry White Wine": {
+        "kcal": 82
+    }
+    
+}

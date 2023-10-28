@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Meal Planner" />
+        <title>Meal Planner</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="styles.css" />
+        <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    </head>
+    <body>
+        
+        <div id="navbar">
+            <div id="top-navbar">
+                <div id="top-navbar-left-div">
+                    <a id="navbar-title" href="./home.html">
+                        <i class="fa-solid fa-utensils"></i>
+                        <span id="title-text">Meal Planner App</span>
+                    </a>
+                </div>
+                <div id="top-navbar-right-div">
+                    <button id="colour-scheme-button" class="colour-scheme-button-unauth"><img src="https://cdn-icons-png.flaticon.com/512/997/997783.png" id="colour-scheme-icon"></img></button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="colour-scheme-modal" class="colour-scheme-modal-unauth">
+            <div id="colour-scheme-grid">
+                <div class="colour-scheme-tile" value="light" id="light-tile"></div>
+                <div class="colour-scheme-tile" value="dark" id="dark-tile"></div>
+                <div class="colour-scheme-tile" value="purple" id="purple-tile"></div>
+                <div class="colour-scheme-tile" value="red" id="red-tile"></div>
+                <div class="colour-scheme-tile" value="pink" id="pink-tile"></div>
+                <div class="colour-scheme-tile" value="teal" id="teal-tile"></div>
+            </div>
+        </div>
+
+        <div id="home-content">
+            <div id="header-top-container">
+                <div id="site-header">
+                    <div id="heading-div">
+                        <div id="headline">
+                            <span id="headline-text">The simplest way to plan your meals</span>
+                            <div id="new-account-box">
+                                <h2 id="new-account-box-title">Sign up to access all of our features</h2>
+                                <div id="new-account-box-sign-up">Sign up with email</div>
+                                <p id="new-account-box-redirect">Already have an account? <a id="redirect-link" href="/login.html">Sign in</a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div id="main-content">
+                <div id="left-content-div">
+                    <section id="faq-section">
+                        <h2 id="faq-title">Frequently Asked Questions</h2>
+                        <div class="faq-answer-container">
+                            <div class="faq-button">
+                                <i class="fas fa-angle-right faq-icon"></i>
+                                Is it free?
+                            </div>
+                            <div class="faq-panel">Yes! Our meal planner web app is completely free to use.</div>
+                        </div>
+
+                        <div class="faq-answer-container">
+                            <div class="faq-button">
+                                <i class="fas fa-angle-right faq-icon"></i>
+                                Is it free?
+                            </div>
+                            <div class="faq-panel">Yes! Our meal planner web app is completely free to use.</div>
+                        </div>
+
+                        <div class="faq-answer-container">
+                            <div class="faq-button">
+                                <i class="fas fa-angle-right faq-icon"></i>
+                                Is it free?
+                            </div>
+                            <div class="faq-panel">Yes! Our meal planner web app is completely free to use.</div>
+                        </div>
+                        
+                    </section>
+                </div>
+                <div id="right-content-div">
+
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+
+        <script src="./script.js" ></script>
+    </body>
+</html>

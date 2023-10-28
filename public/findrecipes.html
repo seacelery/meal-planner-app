@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Meal Planner" />
+        <title>Meal Planner</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="styles.css" />
+        <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    </head>
+    <body>
+        <div id="navbar">
+            <div id="top-navbar">
+                <div id="top-navbar-left-div">
+                    <a id="navbar-title">
+                        <i class="fa-solid fa-utensils"></i>
+                        <span id="title-text">Meal Planner App</span>
+                    </a>
+                    <a id="navbar-my-recipes" class="navbar-link" href="./myrecipes.html">
+                        <i class="fa-solid fa-cookie-bite navbar-icon"></i>
+                        <span>My Recipes</span>
+                    </a>
+                    <a id="navbar-find-recipes" class="navbar-link" href="./findrecipes.html">
+                        <i class="fa-solid fa-magnifying-glass navbar-icon"></i>
+                        <span>Find Recipes</span>
+                    </a>
+                    <a id="navbar-planner" class="navbar-link" href="./planner.html">
+                        <i class="fa-solid fa-calendar navbar-icon"></i>
+                        <span>Planner</span>
+                    </a>
+                </div>
+                <div id="top-navbar-right-div">
+                    <button id="colour-scheme-button"><img src="https://cdn-icons-png.flaticon.com/512/997/997783.png" id="colour-scheme-icon"></img></button>
+                    <a id="logout-button" href="./logout">Sign out<i id="logout-icon" class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                </div>
+                
+                <!-- <a id="navbar-shopping-list" class="navbar-link" href="./shoppinglist.html">
+                    <i class="fa-solid fa-cart-shopping navbar-icon"></i>
+                    <span>Shopping List</span>
+                </a>
+                <button id="test-recipe">Test Recipe DB</button>
+                <button id="test-recipe-api">Test Recipe API</button> -->
+                
+            </div>
+
+            <div id="bottom-navbar">
+                <div id="bottom-navbar-left-div">
+                    <div id="bottom-navbar-searchbar-div">
+                        <input id="bottom-navbar-searchbar" placeholder="Search recipes...">
+                        <div id="bottom-navbar-searchbar-button">Go</div>
+                    </div>
+    
+                    <div class="bottom-navbar-filter">
+                        <select class="bottom-navbar-filter-select" id="course-filter">
+                            <option value="Course: All">Course</option>
+                        </select>
+                    </div>
+    
+                    <div class="bottom-navbar-filter">
+                        <select class="bottom-navbar-filter-select" id="cuisine-filter">
+                            <option value="Cuisine: All">Cuisine</option>
+                        </select>
+                    </div>
+
+                    <div class="bottom-navbar-filter">
+                        <select class="bottom-navbar-filter-select" id="diet-filter">
+                            <option value="Diet: All">Diet</option>
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Vegan">Vegan</option>
+                        </select>
+                    </div>
+    
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="colour-scheme-modal">
+            <div id="colour-scheme-grid">
+                <div class="colour-scheme-tile" value="dark" id="dark-tile"></div>
+                <div class="colour-scheme-tile" value="light" id="light-tile"></div>             
+                <div class="colour-scheme-tile" value="purple" id="purple-tile"></div>
+                <div class="colour-scheme-tile" value="red" id="red-tile"></div>
+                <div class="colour-scheme-tile" value="pink" id="pink-tile"></div>
+                <div class="colour-scheme-tile" value="teal" id="teal-tile"></div>
+            </div>
+        </div>
+        
+        <div id="content">
+            <div id="loading-div">
+                <div id="loader"></div>
+            </div>
+
+            <div id="my-recipes-layout-div">
+                <div id="my-recipes-layout" class="grid">                  
+                </div>
+            </div>  
+        </div>   
+
+        <div id="recipe-info-modal" class="modal hidden">
+            <div id="recipe-info-modal-content" >
+                <!-- <span id="recipe-info-close-modal">&times;</span> -->
+                <div id="recipe-info-header">
+                    <div id="recipe-info-header-clickbox">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <span id="recipe-info-header-text">Return</span>
+                    </div>
+                </div>
+                    
+                <div id="recipe-info-top-div">
+                    <div id="recipe-info-top-left-div">
+                        <div id="recipe-info-top-left-content">
+                            <h2 id="recipe-info-name"></h2>
+                            <div id="recipe-info-cuisine"></div>
+                            <span id="recipe-info-cooking-time"></span>
+                            
+
+                            <div id="recipe-info-nutrition-info">
+                                <div id="recipe-info-nutritional-info-title">Nutritional Info per 100g serving</div>
+                                <div id="recipe-info-nutritional-info-grid">
+                                    <div class="recipe-info-nutritional-info-card">
+                                        <div class="recipe-info-nutritional-info-text">kcal</div>
+                                        <div id="recipe-info-kcal" class="recipe-info-nutritional-info-value">350</div>
+                                    </div>
+
+                                    <div class="recipe-info-nutritional-info-card">
+                                        <div class="recipe-info-nutritional-info-text">carbs</div>
+                                        <div class="recipe-info-nutritional-info-value">48g</div>
+                                    </div>
+
+                                    <div class="recipe-info-nutritional-info-card">
+                                        <div class="recipe-info-nutritional-info-text">fat</div>
+                                        <div class="recipe-info-nutritional-info-value">43g</div>
+                                    </div>
+
+                                    <div class="recipe-info-nutritional-info-card">
+                                        <div class="recipe-info-nutritional-info-text">fibre</div>
+                                        <div class="recipe-info-nutritional-info-value">6g</div>
+                                    </div>
+
+                                    <div class="recipe-info-nutritional-info-card">
+                                        <div class="recipe-info-nutritional-info-text">protein</div>
+                                        <div class="recipe-info-nutritional-info-value">38g</div>
+                                    </div>                      
+
+                                    <div class="recipe-info-nutritional-info-card">
+                                        <div class="recipe-info-nutritional-info-text">saturates</div>
+                                        <div class="recipe-info-nutritional-info-value">18g</div>
+                                    </div>
+                                                            
+                                    <div class="recipe-info-nutritional-info-card">
+                                        <div class="recipe-info-nutritional-info-text">sugars</div>
+                                        <div class="recipe-info-nutritional-info-value">14g</div>
+                                    </div>
+
+                                    <div class="recipe-info-nutritional-info-card">
+                                        <div class="recipe-info-nutritional-info-text">salt</div>
+                                        <div class="recipe-info-nutritional-info-value">2.6g</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="recipe-info-serving-size">
+                                <input id="recipe-info-serving-input" value="">
+                                <span id="recipe-info-serves">servings</span>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div id="recipe-info-top-right-div">
+                        <div id="recipe-info-top-right-content">
+                            <div id="recipe-info-top-right-image-container">
+                                <img id="recipe-info-top-right-image" src="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="recipe-info-bottom-div">
+                    <div id="recipe-info-bottom-left-div">
+                        <div id="recipe-info-bottom-left-content">
+                            <h3 id="recipe-info-ingredients">Ingredients</h3>
+                            <ul id="recipe-info-ingredients-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="recipe-info-bottom-right-div">
+                            <h3 id="recipe-info-directions-title">Directions</h3>
+                            <div id="recipe-info-directions"></div>
+                    </div>              
+                </div>
+                <div id="recipe-info-source">Source: </div>
+            </div>
+        </div>
+        
+        <script src="./script.js" ></script>
+    </body>
+</html>
